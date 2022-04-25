@@ -24,6 +24,9 @@ class User{
         return this.lastUpdated
     }
 
+    /**
+     * @param {string} username
+     */
     set setUsername(username){
         this.username = username
         this.lastUpdated = Date.now()

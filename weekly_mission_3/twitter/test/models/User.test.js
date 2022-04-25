@@ -21,3 +21,4 @@ describe('Unite test for class user', () => {
         expect(user.bio).toBe('New bio')
     });
 });
+
